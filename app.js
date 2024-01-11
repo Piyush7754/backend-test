@@ -23,7 +23,7 @@ app.post('/todo', async (req, res) => {
 })
 
 const start = async () => {
-    await mongoose.connect('mongodb+srv://Myname:Piyush@cluster0.kxlsn9j.mongodb.net/?retryWrites=true&w=majority');
+    await mongoose.connect('');
     console.log('Connected to db.');
     app.listen(3000);
 }
